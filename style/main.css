@@ -1,0 +1,154 @@
+@font-face {
+	font-family: 'Blern';
+	src: url('../fonts/Blern-regular/Blern.eot');
+	src: url('../fonts/Blern-regular/Blern.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Blern-regular/Blern.woff') format('woff'),
+		url('../fonts/Blern-regular/Blern.ttf') format('truetype'),
+		url('../fonts/Blern-regular/Blern.svg#Blern') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Lato';
+	src: url('Lato-Light.eot');
+	src: url('Lato-Light.eot?#iefix') format('embedded-opentype'),
+		url('Lato-Light.woff') format('woff'),
+		url('Lato-Light.ttf') format('truetype'),
+		url('Lato-Light.svg#Lato-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+/* Cover */
+#cover {
+    background: #222 url('../img/ocean.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%;
+}
+
+#cover h1 {
+    position: relative;
+    bottom: 4rem;
+    font-family: Blern, sans-serif;
+    font-size: 10vw;
+}
+
+.section-content {
+    
+    padding: 5rem ;
+}
+
+.text1 {
+    padding: 4rem;
+    position: relative;
+    
+}
+
+.text2 {
+    padding: 7rem;
+    font-size: 1.7rem;
+    color: #207e89;
+}
+
+.card {
+    padding: 1rem;
+}
+
+#cards {
+    background: url(../img/white.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #3C3744;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    
+   /* background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 7rem 0 0 0;*/
+    
+}
+
+.btn-primary {
+    background-color: #207e89;
+}
+
+.separate {
+    padding: 1rem;
+}
+
+#bridge {
+    background-image: url(../img/bridge.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    max-width: 100%; 
+    padding: 7rem 0 5rem 1rem;
+    align-items: center;
+    
+}
+
+
+#footer {
+    background-color: #8C9397;
+    max-height: 100%;
+    padding: 3rem;
+    
+    
+}
+
+#footer ul {
+    list-style-type: none;
+}
+
+#right {
+    float: right;
+}
+
+#footer a {
+    color: white;
+}
+
+.white {
+    color: white;
+}
+.copyright {
+   
+    font-size: 0.8rem;
+    position: relative;
+    left: 7rem;
+    text-align: center;
+}
+
+#copy {
+    position: relative;
+    top: 3.5rem;
+}
+
+#link {
+    position: relative;
+    top: 5rem;
+}
