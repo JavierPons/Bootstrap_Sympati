@@ -53,6 +53,10 @@ img {
     font-size: 10vw;
 }
 
+.sympa{
+    display: none;
+}
+
 .section-content {
     
     padding: 5rem ;
