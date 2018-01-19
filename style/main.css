@@ -156,3 +156,16 @@ img {
     position: relative;
     top: 3rem;
 }
+
+/*   primer      */
+
+.primer {
+    background: #222 url('../img/ballon.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+
