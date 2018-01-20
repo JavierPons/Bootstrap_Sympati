@@ -65,7 +65,7 @@ img {
 .text1 {
     padding: 4rem;
     position: relative;
-    
+    font-size: 1rem;
 }
 
 .text2 {
@@ -164,8 +164,12 @@ img {
     background-size: cover;
     color: white;
     height: 100%;
-    font-size: 1.1rem;
     display: flex;
     align-items: center;
+    padding: 5rem;
 }
 
+#javi {
+    
+    color: black !important;
+}
